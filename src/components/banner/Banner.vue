@@ -10,9 +10,9 @@
                 e junte-se a essa jornada de transformação.
             </h2>
             <div class="text-center md:text-left">
-                <a href="https://github.com/contrasov/para-cara/releases/download/untagged-fdc5ac3f6d769afd2678/PARA.CARA-BETA.apk" class="btn-site2 w-full md:w-auto">Baixar App Agora! 😎</a>
+                <a href="/public/PARA-CARA-BETA.apk" download class="btn-site2 w-full md:w-auto">Baixar App Agora! 😎</a>
                 <p class="mt-4 md:mt-[20px] text-xs italic">obs: o app pode ter bugs, erros, e não funcionar corretamente offline, pois está em versão beta.</p>
-            </div>
+            </div>  
         </div>
 
             <!-- Container da imagem -->
@@ -27,3 +27,7 @@
         </div>
     </div>
 </template>
+
+<script setup lang="ts">
+
+</script>
