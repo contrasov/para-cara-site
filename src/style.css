@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: white;
+  background-color: #0D0D0B;
+}
+
+.btn-site1 {
+  @apply border border-solid border-[#A3EC3E] text-[#A3EC3E] font-bold px-[20px] py-[10px] rounded-4xl hover:bg-[#A3EC3E] hover:text-[#1A1A17] cursor-pointer
+}
+
+.btn-site2 {
+  @apply bg-[#a3ec3e] text-[#1A1A17] font-bold px-[20px] py-[10px] rounded-4xl hover:bg-[#92F30C] hover:text-white cursor-pointer
+}
